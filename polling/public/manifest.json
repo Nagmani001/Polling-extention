@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Poll Extension",
+  "description": "Create and Join Polls",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
